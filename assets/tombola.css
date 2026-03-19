@@ -3,11 +3,14 @@ body {
   background-image: url(./sfondo-tombola.png);
   background-size: cover;
   text-align: center;
+  font-family: "Roboto", sans-serif;
 }
 
 h1 {
   color: white;
   margin-bottom: 2em;
+  font-weight: bold;
+  font-size: 35px;
 }
 
 button {
