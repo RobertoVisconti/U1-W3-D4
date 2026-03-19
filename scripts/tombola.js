@@ -50,7 +50,6 @@ const resetGioco = function () {
 
 // reset comportamento di default
 mainBtn.addEventListener("click", (e) => {
-  // Fondamentale: impedisce il refresh della pagina essendo un type="submit"
   e.preventDefault();
   estraiNumero();
 });
