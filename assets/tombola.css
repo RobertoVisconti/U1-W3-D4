@@ -1,0 +1,53 @@
+body {
+  size: 100%;
+  background-image: url(./sfondo-tombola.png);
+  background-size: cover;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  margin-bottom: 2em;
+}
+
+button {
+  margin-bottom: 2em;
+  padding: 2em 3em;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #d16d2f;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.number-card {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 5px;
+  margin-top: 1em;
+}
+
+.cella-numero {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  padding: 2em;
+  color: white;
+}
+
+.estratto {
+  background-color: rgba(228, 81, 13, 0.452);
+  backdrop-filter: blur(10px);
+  color: white;
+  font-weight: bold;
+}
+
+button:active {
+  outline: 4px solid #28a745;
+  outline-offset: -4px;
+  transform: scale(0.98);
+  transition: 0.1s;
+}
